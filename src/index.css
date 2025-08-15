@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Layout {
+  min-height: 100vh;
+}
+
+.logo {
+  color: rgb(226, 226, 226);
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+.divCard {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+@NewsAppBecend_HostAddress = http://localhost:5219
+
+GET {{NewsAppBecend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

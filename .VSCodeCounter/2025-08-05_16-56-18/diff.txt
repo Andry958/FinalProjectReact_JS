@@ -1,0 +1,118 @@
+Date : 2025-08-05 16:56:18
+Directory : c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs
+Total : 66 files,  637 codes, -8 comments, 55 blanks, all 684 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| JSON     |          2 |        341 |          0 |          0 |        341 |
+| C#       |         64 |        296 |         -8 |         55 |        343 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                   | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                      |         66 |        637 |         -8 |         55 |        684 |
+| NewsAppBecend                                                                                                          |         66 |        637 |         -8 |         55 |        684 |
+| NewsAppBecend (Files)                                                                                                  |          1 |          6 |          0 |          1 |          7 |
+| NewsAppBecend\.vs                                                                                                      |          2 |        341 |          0 |          0 |        341 |
+| NewsAppBecend\.vs\NewsAppBecend                                                                                        |          2 |        341 |          0 |          0 |        341 |
+| NewsAppBecend\.vs\NewsAppBecend\v17                                                                                    |          2 |        341 |          0 |          0 |        341 |
+| NewsAppBecend\Configuration                                                                                            |          2 |         12 |          0 |          2 |         14 |
+| NewsAppBecend\Controllers                                                                                              |          7 |        -55 |         -8 |         -1 |        -64 |
+| NewsAppBecend\DTOs                                                                                                     |         15 |         90 |          0 |         15 |        105 |
+| NewsAppBecend\DTOs\Auth                                                                                                |          3 |         18 |          0 |          3 |         21 |
+| NewsAppBecend\DTOs\Common                                                                                              |          2 |         12 |          0 |          2 |         14 |
+| NewsAppBecend\DTOs\Edition                                                                                             |          3 |         18 |          0 |          3 |         21 |
+| NewsAppBecend\DTOs\News                                                                                                |          4 |         24 |          0 |          4 |         28 |
+| NewsAppBecend\DTOs\User                                                                                                |          3 |         18 |          0 |          3 |         21 |
+| NewsAppBecend\Extensions                                                                                               |          2 |         12 |          0 |          2 |         14 |
+| NewsAppBecend\Middleware                                                                                               |          2 |         12 |          0 |          2 |         14 |
+| NewsAppBecend\Model                                                                                                    |         13 |         68 |          0 |          9 |         77 |
+| NewsAppBecend\Model (Files)                                                                                            |          2 |        -31 |          0 |         -4 |        -35 |
+| NewsAppBecend\Model\DB                                                                                                 |          2 |         -9 |          0 |         -2 |        -11 |
+| NewsAppBecend\Model\Dto                                                                                                |          6 |         67 |          0 |          9 |         76 |
+| NewsAppBecend\Model\Entities                                                                                           |          3 |         41 |          0 |          6 |         47 |
+| NewsAppBecend\Repositories                                                                                             |          8 |         67 |          0 |         11 |         78 |
+| NewsAppBecend\Repositories (Files)                                                                                     |          4 |         24 |          0 |          4 |         28 |
+| NewsAppBecend\Repositories\Interfaces                                                                                  |          4 |         43 |          0 |          7 |         50 |
+| NewsAppBecend\Services                                                                                                 |         10 |         60 |          0 |         10 |         70 |
+| NewsAppBecend\Services (Files)                                                                                         |          5 |         30 |          0 |          5 |         35 |
+| NewsAppBecend\Services\Interfaces                                                                                      |          5 |         30 |          0 |          5 |         35 |
+| NewsAppBecend\Validators                                                                                               |          4 |         24 |          0 |          4 |         28 |
++------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                               | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\.vs\NewsAppBecend\v17\DocumentLayout.backup.json | JSON     |       -135 |          0 |          0 |       -135 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\.vs\NewsAppBecend\v17\DocumentLayout.json        | JSON     |        476 |          0 |          0 |        476 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Configuration\AppSettings.cs                     | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Configuration\FileUploadSettings.cs              | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\AdminController.cs                   | C#       |         42 |          0 |          8 |         50 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\AuthController.cs                    | C#       |         81 |          0 |         13 |         94 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\EditionsController.cs                | C#       |         -7 |          0 |          2 |         -5 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\LoginRegisterController.cs           | C#       |        -96 |          0 |        -15 |       -111 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\MainController.cs                    | C#       |        -53 |         -7 |         -9 |        -69 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\NewsItemsController.cs               | C#       |        -22 |          0 |         -1 |        -23 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\UsersController.cs                   | C#       |          0 |         -1 |          1 |          0 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\Auth\AuthResponseDto.cs                     | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\Auth\LoginDto.cs                            | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\Auth\RegisterDto.cs                         | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\Common\ApiResponseDto.cs                    | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\Common\PagedResultDto.cs                    | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\Edition\AddEditionToUserDto.cs              | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\Edition\CreateEditionDto.cs                 | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\Edition\EditionDto.cs                       | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\News\CreateNewsDto.cs                       | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\News\NewsItemDto.cs                         | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\News\NewsQueryDto.cs                        | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\News\UpdateNewsDto.cs                       | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\User\CreateUserDto.cs                       | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\User\UpdateUserDto.cs                       | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\DTOs\User\UserDto.cs                             | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Extensions.cs                                    | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Extensions\ApplicationBuilderExtensions.cs       | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Extensions\ServiceCollectionExtensions.cs        | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Middleware\ExceptionHandlingMiddleware.cs        | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Middleware\ValidationMiddleware.cs               | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\DB\EditionsItem.cs                         | C#       |        -10 |          0 |         -2 |        -12 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\DB\NewsDbContext.cs                        | C#       |          1 |          0 |          0 |          1 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\Dto\AddForUserDto.cs                       | C#       |          8 |          0 |          1 |          9 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\Dto\EditionsItemDto.cs                     | C#       |          7 |          0 |          1 |          8 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\Dto\LoginDto.cs                            | C#       |          8 |          0 |          2 |         10 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\Dto\NewsItemDto.cs                         | C#       |         14 |          0 |          2 |         16 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\Dto\NewsItemDto_.cs                        | C#       |         15 |          0 |          1 |         16 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\Dto\RegisterDto.cs                         | C#       |         15 |          0 |          2 |         17 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\Entities\EditionsItem.cs                   | C#       |         10 |          0 |          2 |         12 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\Entities\NewsItem.cs                       | C#       |         15 |          0 |          2 |         17 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\Entities\User.cs                           | C#       |         16 |          0 |          2 |         18 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\NewsItem.cs                                | C#       |        -15 |          0 |         -2 |        -17 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\User.cs                                    | C#       |        -16 |          0 |         -2 |        -18 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Repositories\EditionRepository.cs                | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Repositories\GenericRepository.cs                | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Repositories\Interfaces\IEditionRepository.cs    | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Repositories\Interfaces\IGenericRepository.cs    | C#       |         19 |          0 |          3 |         22 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Repositories\Interfaces\INewsRepository.cs       | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Repositories\Interfaces\IUserRepository.cs       | C#       |         12 |          0 |          2 |         14 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Repositories\NewsRepository.cs                   | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Repositories\UserRepository.cs                   | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\AuthService.cs                          | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\EditionService.cs                       | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\FileService.cs                          | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\Interfaces\IAuthService.cs              | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\Interfaces\IEditionService.cs           | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\Interfaces\IFileService.cs              | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\Interfaces\INewsService.cs              | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\Interfaces\IUserService.cs              | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\NewsService.cs                          | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Services\UserService.cs                          | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Validators\LoginDtoValidator.cs                  | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Validators\NewsItemDtoValidator.cs               | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Validators\RegisterDtoValidator.cs               | C#       |          6 |          0 |          1 |          7 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Validators\UserDtoValidator.cs                   | C#       |          6 |          0 |          1 |          7 |
+| Total                                                                                                                  |          |        637 |         -8 |         55 |        684 |
++------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

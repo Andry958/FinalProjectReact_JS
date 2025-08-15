@@ -1,0 +1,143 @@
+Date : 2025-08-03 16:13:29
+Directory : c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs
+Total : 78 files,  15116 codes, 121 comments, 594 blanks, all 15831 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |         16 |     11,823 |          0 |          7 |     11,830 |
+| JavaScript JSX |         21 |      1,809 |         66 |        267 |      2,142 |
+| C#             |         21 |      1,222 |         54 |        288 |      1,564 |
+| XML            |          9 |        100 |          0 |          6 |        106 |
+| JavaScript     |          5 |         87 |          1 |         12 |        100 |
+| Properties     |          1 |         27 |          0 |          1 |         28 |
+| PostCSS        |          2 |         22 |          0 |          4 |         26 |
+| HTML           |          1 |         13 |          0 |          1 |         14 |
+| Markdown       |          1 |          7 |          0 |          6 |         13 |
+| MS SQL         |          1 |          6 |          0 |          2 |          8 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                      |         78 |     15,116 |        121 |        594 |     15,831 |
+| . (Files)                                                                                                                                              |          6 |      3,969 |          1 |         13 |      3,983 |
+| NewsAppBecend                                                                                                                                          |         44 |      9,260 |         54 |        302 |      9,616 |
+| NewsAppBecend (Files)                                                                                                                                  |          5 |         78 |          4 |         19 |        101 |
+| NewsAppBecend\.vs                                                                                                                                      |          2 |        402 |          0 |          0 |        402 |
+| NewsAppBecend\.vs\NewsAppBecend                                                                                                                        |          2 |        402 |          0 |          0 |        402 |
+| NewsAppBecend\.vs\NewsAppBecend\v17                                                                                                                    |          2 |        402 |          0 |          0 |        402 |
+| NewsAppBecend\Controllers                                                                                                                              |          5 |        477 |         12 |         89 |        578 |
+| NewsAppBecend\Migrations                                                                                                                               |          7 |        625 |         16 |        163 |        804 |
+| NewsAppBecend\Model                                                                                                                                    |          4 |         60 |          0 |         14 |         74 |
+| NewsAppBecend\Model (Files)                                                                                                                            |          2 |         31 |          0 |          4 |         35 |
+| NewsAppBecend\Model\DB                                                                                                                                 |          2 |         29 |          0 |         10 |         39 |
+| NewsAppBecend\Properties                                                                                                                               |          1 |         41 |          0 |          1 |         42 |
+| NewsAppBecend\bin                                                                                                                                      |          4 |      1,734 |          0 |          2 |      1,736 |
+| NewsAppBecend\bin\Debug                                                                                                                                |          4 |      1,734 |          0 |          2 |      1,736 |
+| NewsAppBecend\bin\Debug\net8.0                                                                                                                         |          4 |      1,734 |          0 |          2 |      1,736 |
+| NewsAppBecend\obj                                                                                                                                      |         16 |      5,843 |         22 |         14 |      5,879 |
+| NewsAppBecend\obj (Files)                                                                                                                              |          5 |      5,418 |          0 |          1 |      5,419 |
+| NewsAppBecend\obj\Debug                                                                                                                                |         11 |        425 |         22 |         13 |        460 |
+| NewsAppBecend\obj\Debug\net8.0                                                                                                                         |         11 |        425 |         22 |         13 |        460 |
+| NewsAppBecend\obj\Debug\net8.0 (Files)                                                                                                                 |          8 |        416 |         22 |         13 |        451 |
+| NewsAppBecend\obj\Debug\net8.0\staticwebassets                                                                                                         |          3 |          9 |          0 |          0 |          9 |
+| public                                                                                                                                                 |          1 |          1 |          0 |          0 |          1 |
+| src                                                                                                                                                    |         27 |      1,886 |         66 |        279 |      2,231 |
+| src (Files)                                                                                                                                            |          4 |        256 |         20 |         55 |        331 |
+| src\Componens                                                                                                                                          |         22 |      1,629 |         46 |        224 |      1,899 |
+| src\Componens\First                                                                                                                                    |          2 |        207 |          7 |         36 |        250 |
+| src\Componens\Items                                                                                                                                    |          6 |        564 |         25 |         73 |        662 |
+| src\Componens\Main                                                                                                                                     |          8 |        722 |         14 |         94 |        830 |
+| src\Componens\context                                                                                                                                  |          3 |         82 |          0 |         13 |         95 |
+| src\Componens\hooks                                                                                                                                    |          1 |         33 |          0 |          6 |         39 |
+| src\Componens\validation                                                                                                                               |          2 |         21 |          0 |          2 |         23 |
+| src\assets                                                                                                                                             |          1 |          1 |          0 |          0 |          1 |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                                                               | language       | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\.vs\NewsAppBecend\v17\DocumentLayout.backup.json                                 | JSON           |        201 |          0 |          0 |        201 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\.vs\NewsAppBecend\v17\DocumentLayout.json                                        | JSON           |        201 |          0 |          0 |        201 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\EditionsController.cs                                                | C#             |        155 |          0 |         36 |        191 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\LoginRegisterController.cs                                           | C#             |         96 |          0 |         15 |        111 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\MainController.cs                                                    | C#             |         53 |          8 |          9 |         70 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\NewsItemsController.cs                                               | C#             |        119 |          4 |         21 |        144 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\UsersController.cs                                                   | C#             |         54 |          0 |          8 |         62 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\20250731093059_InitialCreate.Designer.cs                              | C#             |        106 |          2 |         32 |        140 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\20250731093059_InitialCreate.cs                                       | C#             |         76 |          3 |          9 |         88 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\20250731103718_UpdateUserEditionsRelation.Designer.cs                 | C#             |        116 |          2 |         35 |        153 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\20250731103718_UpdateUserEditionsRelation.cs                          | C#             |         68 |          3 |         11 |         82 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\20250802135557_AddAvatarUrlToUser.Designer.cs                         | C#             |        119 |          2 |         36 |        157 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\20250802135557_AddAvatarUrlToUser.cs                                  | C#             |         23 |          3 |          4 |         30 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\NewsDbContextModelSnapshot.cs                                         | C#             |        117 |          1 |         36 |        154 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\DB\EditionsItem.cs                                                         | C#             |         10 |          0 |          2 |         12 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\DB\NewsDbContext.cs                                                        | C#             |         19 |          0 |          8 |         27 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\NewsItem.cs                                                                | C#             |         15 |          0 |          2 |         17 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\User.cs                                                                    | C#             |         16 |          0 |          2 |         18 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\NewsAppBecend.csproj                                                             | XML            |         23 |          0 |          5 |         28 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Program.cs                                                                       | C#             |         29 |          4 |         10 |         43 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Properties\launchSettings.json                                                   | JSON           |         41 |          0 |          1 |         42 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\SQLQuery.sql                                                                     | MS SQL         |          6 |          0 |          2 |          8 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\appsettings.Development.json                                                     | JSON           |          8 |          0 |          1 |          9 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\appsettings.json                                                                 | JSON           |         12 |          0 |          1 |         13 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\bin\Debug\net8.0\NewsAppBecend.deps.json                                         | JSON           |      1,694 |          0 |          0 |      1,694 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\bin\Debug\net8.0\NewsAppBecend.runtimeconfig.json                                | JSON           |         20 |          0 |          0 |         20 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\bin\Debug\net8.0\appsettings.Development.json                                    | JSON           |          8 |          0 |          1 |          9 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\bin\Debug\net8.0\appsettings.json                                                | JSON           |         12 |          0 |          1 |         13 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs                  | C#             |          3 |          1 |          1 |          5 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\ApiEndpoints.json                                               | JSON           |        346 |          0 |          0 |        346 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\NewsAppBecend.AssemblyInfo.cs                                   | C#             |          9 |         10 |          5 |         24 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\NewsAppBecend.GeneratedMSBuildEditorConfig.editorconfig         | Properties     |         27 |          0 |          1 |         28 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\NewsAppBecend.GlobalUsings.g.cs                                 | C#             |         16 |          1 |          1 |         18 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\NewsAppBecend.MvcApplicationPartsAssemblyInfo.cs                | C#             |          3 |         10 |          5 |         18 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\NewsAppBecend.sourcelink.json                                   | JSON           |          1 |          0 |          0 |          1 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\staticwebassets.build.json                                      | JSON           |         11 |          0 |          0 |         11 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\staticwebassets\msbuild.build.NewsAppBecend.props               | XML            |          3 |          0 |          0 |          3 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NewsAppBecend.props | XML            |          3 |          0 |          0 |          3 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NewsAppBecend.props     | XML            |          3 |          0 |          0 |          3 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\NewsAppBecend.csproj.EntityFrameworkCore.targets                             | XML            |         28 |          0 |          1 |         29 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\NewsAppBecend.csproj.nuget.dgspec.json                                       | JSON           |         98 |          0 |          0 |         98 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\NewsAppBecend.csproj.nuget.g.props                                           | XML            |         27 |          0 |          0 |         27 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\NewsAppBecend.csproj.nuget.g.targets                                         | XML            |         11 |          0 |          0 |         11 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\project.assets.json                                                          | JSON           |      5,254 |          0 |          0 |      5,254 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\README.md                                                                                      | Markdown       |          7 |          0 |          6 |         13 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\eslint.config.js                                                                               | JavaScript     |         28 |          0 |          2 |         30 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\index.html                                                                                     | HTML           |         13 |          0 |          1 |         14 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\package-lock.json                                                                              | JSON           |      3,886 |          0 |          1 |      3,887 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\package.json                                                                                   | JSON           |         30 |          0 |          1 |         31 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\public\vite.svg                                                                                | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\App.css                                                                                    | PostCSS        |          0 |          0 |          1 |          1 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\App.jsx                                                                                    | JavaScript JSX |        217 |         18 |         49 |        284 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\First\Login.jsx                                                                  | JavaScript JSX |         74 |          3 |         14 |         91 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\First\Register.jsx                                                               | JavaScript JSX |        133 |          4 |         22 |        159 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\CardItem.jsx                                                               | JavaScript JSX |         37 |          0 |          1 |         38 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\NewsByAthor.jsx                                                            | JavaScript JSX |        170 |         12 |         23 |        205 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\NewsCards.jsx                                                              | JavaScript JSX |         56 |          4 |         11 |         71 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\NewsModal.jsx                                                              | JavaScript JSX |        129 |          4 |         15 |        148 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\a.jsx                                                                      | JavaScript JSX |         34 |          1 |          4 |         39 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\newsList.jsx                                                               | JavaScript JSX |        138 |          4 |         19 |        161 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\AddProduct.jsx                                                              | JavaScript JSX |        120 |          4 |         18 |        142 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\AdminsEditor.jsx                                                            | JavaScript JSX |        175 |          7 |         21 |        203 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\EditNews.jsx                                                                | JavaScript JSX |        103 |          0 |          6 |        109 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\Home.jsx                                                                    | JavaScript JSX |         10 |          0 |          3 |         13 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\Layout.jsx                                                                  | JavaScript JSX |        112 |          0 |         14 |        126 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\NoPage.jsx                                                                  | JavaScript JSX |          8 |          0 |          1 |          9 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\Profile.jsx                                                                 | JavaScript JSX |         66 |          0 |         11 |         77 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\SearchSortNews.jsx                                                          | JavaScript JSX |        128 |          3 |         20 |        151 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\context\AllContext.jsx                                                           | JavaScript JSX |         21 |          0 |          5 |         26 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\context\SourcesContext.jsx                                                       | JavaScript JSX |         38 |          0 |          5 |         43 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\context\UserContext.jsx                                                          | JavaScript JSX |         23 |          0 |          3 |         26 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\hooks\useMessage.js                                                              | JavaScript     |         33 |          0 |          6 |         39 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\validation\validateLogin.js                                                      | JavaScript     |         21 |          0 |          1 |         22 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\validation\validateRegister.js                                                   | JavaScript     |          0 |          0 |          1 |          1 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\assets\react.svg                                                                           | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\index.css                                                                                  | PostCSS        |         22 |          0 |          3 |         25 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\main.jsx                                                                                   | JavaScript JSX |         17 |          2 |          2 |         21 |
+| c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\vite.config.js                                                                                 | JavaScript     |          5 |          1 |          2 |          8 |
+| Total                                                                                                                                                  |                |     15,116 |        121 |        594 |     15,831 |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

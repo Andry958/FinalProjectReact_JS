@@ -1,0 +1,27 @@
+"filename", "language", "JavaScript JSX", "JSON", "C#", "XML", "comment", "blank", "total"
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\.vs\NewsAppBecend\v17\DocumentLayout.backup.json", "JSON", 0, -13, 0, 0, 0, 0, -13
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\.vs\NewsAppBecend\v17\DocumentLayout.json", "JSON", 0, 5, 0, 0, 0, 0, 5
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\EditionsController.cs", "C#", 0, 0, 53, 0, -3, 25, 75
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\LoginRegisterController.cs", "C#", 0, 0, 30, 0, 0, 9, 39
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\MainController.cs", "C#", 0, 0, -6, 0, 6, 0, 0
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Controllers\NewsItemsController.cs", "C#", 0, 0, 28, 0, 4, 7, 39
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\20250802135557_AddAvatarUrlToUser.Designer.cs", "C#", 0, 0, 119, 0, 2, 36, 157
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\20250802135557_AddAvatarUrlToUser.cs", "C#", 0, 0, 23, 0, 3, 4, 30
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Migrations\NewsDbContextModelSnapshot.cs", "C#", 0, 0, 3, 0, 0, 1, 4
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Model\User.cs", "C#", 0, 0, 1, 0, 0, 0, 1
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\NewsAppBecend.csproj", "XML", 0, 0, 0, 3, 0, 1, 4
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\Program.cs", "C#", 0, 0, 1, 0, 0, -1, 0
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\NewsAppBecend\obj\Debug\net8.0\ApiEndpoints.json", "JSON", 0, 123, 0, 0, 0, 0, 123
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\App.jsx", "JavaScript JSX", 84, 0, 0, 0, 13, 27, 124
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\First\Login.jsx", "JavaScript JSX", 1, 0, 0, 0, 0, -1, 0
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\First\Register.jsx", "JavaScript JSX", 23, 0, 0, 0, -4, 5, 24
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\NewsByAthor.jsx", "JavaScript JSX", 97, 0, 0, 0, 12, 14, 123
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\NewsCards.jsx", "JavaScript JSX", 22, 0, 0, 0, 3, 7, 32
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\NewsModal.jsx", "JavaScript JSX", 46, 0, 0, 0, 3, 5, 54
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\a.jsx", "JavaScript JSX", 34, 0, 0, 0, 1, 4, 39
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Items\newsList.jsx", "JavaScript JSX", 33, 0, 0, 0, 3, 9, 45
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\Layout.jsx", "JavaScript JSX", 1, 0, 0, 0, 0, 0, 1
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\Profile.jsx", "JavaScript JSX", 2, 0, 0, 0, 0, 0, 2
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\Main\SearchSortNews.jsx", "JavaScript JSX", 21, 0, 0, 0, 2, 8, 31
+"c:\Users\111\Desktop\Main\JSReact\Final-Project-ReactJs\src\Componens\context\SourcesContext.jsx", "JavaScript JSX", 22, 0, 0, 0, 0, 3, 25
+"Total", "-", 386, 115, 252, 3, 45, 163, 964

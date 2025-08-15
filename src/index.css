@@ -23,3 +23,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+.lastnews{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.ln{
+  margin: 5px 0px;
+  padding: 20px 50px;
+  background-color: antiquewhite;
+  border-radius: 50px;
+  font-weight: bold;
+}

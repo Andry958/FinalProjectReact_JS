@@ -15,6 +15,8 @@ import Login from './Componens/First/Login';
 import Profile from './Componens/Main/Profile';
 import AdminsEditor from './Componens/Main/AdminsEditor';
 import EditProfile from './Componens/Main/EditProfile';
+import { useDispatch, useSelector } from 'react-redux';
+import { Refresh, SetAllNews } from './Componens/Redux/LastNews/LastNews.reduce';
 
 
 
@@ -23,6 +25,12 @@ const api = "https://localhost:5173/api/"
 function App() {
   const { setValue } = useContext(AllNewsContext);
   const { setSources } = useContext(SourcesContext);
+
+  const dispatch = useDispatch();
+
+    const allNews = useSelector(state => state.account.allNews);
+    const lastnews = useSelector(state => state.account.lastnews);
+
   useEffect(() => {
     fetchNews()
   }, []);
@@ -39,8 +47,9 @@ function App() {
         uniqueSources.push(news.source.name);
       }
     });
-    setSources(uniqueSources);
-
+    setSources(uniqueSources);console.log("dfsdfsdf",data)
+    dispatch(SetAllNews(data.articles))
+    dispatch(Refresh())
     await AddNewsInDB(data.articles);
   }
 

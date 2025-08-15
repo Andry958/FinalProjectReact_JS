@@ -84,7 +84,6 @@ export default function Register() {
         name="email" 
         rules={[
           { required: true, message: "Будь ласка, введіть email!" },
-          { type: "email", message: "Невірний формат email!" }
         ]}
       >
         <Input />

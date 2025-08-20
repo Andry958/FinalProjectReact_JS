@@ -1,8 +1,9 @@
 import React, { useContext, useState } from 'react';
 import { Button, Popconfirm, Space, Table, message, Switch, Select } from 'antd';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
 import Search from 'antd/es/transfer/search';
+import { changeUserRole, deleteUser, getFavUsers } from '../Services/FavoritesUsers.service';
 
 const sortOptions = [
   { value: 'name', label: 'Імʼя' },
@@ -16,19 +17,29 @@ export default function AdminsEditor() {
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState('name');
 
+  const allUser = getFavUsers();
+
+
   const onDelete = (username) => {
+    console.log("Deleting user:", username);
+    deleteUser(username);
     setUsers(users.filter(u => u.username !== username));
     messageApi.success("Користувача видалено");
   };
 
   const onChange = (record) => (checked) => {
+    const newRole = checked ? 'admin' : 'user';
+
+    changeUserRole(record.username, newRole);
+
     const updatedUsers = users.map(u =>
       u.username === record.username
-        ? { ...u, role: checked ? 'admin' : 'user' }
+        ? { ...u, role: newRole }
         : u
     );
+
     setUsers(updatedUsers);
-    messageApi.success(`Роль користувача ${record.username} змінено`);
+    messageApi.success(`Роль користувача ${record.username} змінено на ${newRole}`);
   };
 
   const filtered = users.filter(user =>
@@ -40,6 +51,7 @@ export default function AdminsEditor() {
   const sorted = [...filtered].sort((a, b) =>
     (a[sortBy] || '').localeCompare(b[sortBy] || '')
   );
+    const navigate = useNavigate();
 
   const columns = [
     {
@@ -77,12 +89,19 @@ export default function AdminsEditor() {
       key: 'actions',
       render: (_, record) => (
         <Space>
-          <Switch checked={record.role === "admin"} onChange={onChange(record)} />
-          <Link to="/edit-user">
+          {record.username === user.username ?
+            <Switch checked={record.role === "admin"} disabled />
+            :
+            <Switch checked={record.role === "admin"} onChange={onChange(record)} />
+          }
+          <Link 
+            to="/edituser"
+            state={{ user: record }}>
+
             {record.username === user.username ? (
               <Button type="primary" disabled>Редагувати (не можна)</Button>
             ) : (
-              <Button type="primary">Редагувати</Button>
+              <Button  type="primary">Редагувати</Button>
             )}
           </Link>
           <Popconfirm
@@ -117,7 +136,7 @@ export default function AdminsEditor() {
           value={sortBy}
           onChange={setSortBy}
           options={sortOptions}
-          style={{ width: 180, marginTop:20 }}
+          style={{ width: 180, marginTop: 20 }}
         />
       </div>
 
@@ -125,7 +144,7 @@ export default function AdminsEditor() {
 
       <Table
         columns={columns}
-        dataSource={sorted.map((u, i) => ({ ...u, key: u.username || i }))}
+        dataSource={allUser.map((u, i) => ({ ...u, key: u.username || i }))}
       />
     </>
   );

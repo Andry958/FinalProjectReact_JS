@@ -4,7 +4,6 @@ const keyUsers = 'fav-users';
 
 
 
-
 const getFavEdition = () => {
     if (!localStorage.getItem(key)) {
         return [];
@@ -19,7 +18,7 @@ const addEditionToFav = (name) => {
 
 const removeEditionFromFav = (name) => {
     let arr = getFavEdition();
-    arr = arr.filter(i => i !== name); // було: i !== id (помилка!)
+    arr = arr.filter(i => i !== name); 
     localStorage.setItem(key, JSON.stringify(arr));
 };
 

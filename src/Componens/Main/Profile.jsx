@@ -11,9 +11,15 @@ import {
 import { EditOutlined } from "@ant-design/icons";
 import { UserContext } from "../context/UserContext";
 import { Link } from "react-router-dom";
+import { getFavUsers } from "../Services/FavoritesUsers.service";
 
 const Profile = () => {
   const { user, sourcesUser } = useContext(UserContext);
+  const allUser = getFavUsers()
+  let alleditions = allUser.filter(u => u.username === user.username);
+  let ed = alleditions[0].sourcesUser;
+  console.log("ed", ed);
+  console.log(alleditions)
   if (!user) {
     return <h2>Login to see your profile</h2>;
   }
@@ -22,7 +28,7 @@ const Profile = () => {
     username: user.username,
     email: user.email,
     bio: user.description,
-    avatarUrl: user.avatar ??"https://i.pravatar.cc/150?img=11",
+    avatarUrl: user.avatar ?? "https://i.pravatar.cc/150?img=11",
   };
 
   return (
@@ -39,9 +45,9 @@ const Profile = () => {
               <p style={{ maxWidth: 400, margin: "8px auto" }}>{userr.email}</p>
 
               <Link to="/editpr">
-              <Button icon={<EditOutlined />} type="primary">
-                Редагувати профіль
-              </Button>
+                <Button icon={<EditOutlined />} type="primary">
+                  Редагувати профіль
+                </Button>
               </Link>
             </div>
 
@@ -52,11 +58,11 @@ const Profile = () => {
                 {userr.bio}
               </Descriptions.Item>
               <Descriptions.Item label="Вибрані видання">
-                {sourcesUser.length > 0 ? (
+                {alleditions.length > 0 && alleditions[0].sourcesUser?.length > 0 ? (
                   <Space wrap>
-                    {sourcesUser.map((source, idx) => (
+                    {alleditions[0].sourcesUser.map((src, idx) => (
                       <Tag key={idx} color="blue">
-                        {source}
+                        {src}
                       </Tag>
                     ))}
                   </Space>

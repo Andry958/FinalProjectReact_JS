@@ -90,8 +90,8 @@ const Layout = () => {
         },
         {
             key: '7',
-            label: <><Button onClick={() => openModal(lastnews)}>Остання новина</Button>
-            </>,
+            label: <span  onClick={() => openModal(lastnews)}>Остання новина
+            </span>,
             icon: <DatabaseFilled />,
 
         }
@@ -140,7 +140,6 @@ const Layout = () => {
 
             <Footer style={{ textAlign: 'center' }}>
                 {/* {lastnews.title} */}
-                <hr />
                 Ant Design ©{new Date().getFullYear()} Created by Ant UED
             </Footer>
             <NewsModal

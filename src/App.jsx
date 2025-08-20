@@ -17,6 +17,7 @@ import AdminsEditor from './Componens/Main/AdminsEditor';
 import EditProfile from './Componens/Main/EditProfile';
 import { useDispatch, useSelector } from 'react-redux';
 import { Refresh, SetAllNews } from './Componens/Redux/LastNews/LastNews.reduce';
+import EditUserByAdmin from './Componens/Main/EditUserByAdmin';
 
 
 
@@ -82,6 +83,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
           <Route path="admins" element={<AdminsEditor></AdminsEditor>} />
           <Route path="editpr" element={<EditProfile></EditProfile>} />
+          <Route path="edituser" element={<EditUserByAdmin />} />
         </Route>
       </Routes>
     </BrowserRouter>

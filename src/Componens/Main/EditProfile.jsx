@@ -2,6 +2,7 @@ import { useContext, useEffect } from 'react';
 import { Button, Form, Input, Space, message } from 'antd';
 import { useNavigate, Link } from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
+import { changeUserProfile } from '../Services/FavoritesUsers.service';
 const { TextArea } = Input;
 
 const tailLayout = {
@@ -16,7 +17,6 @@ const EditProfile = () => {
     const navigate = useNavigate();
     const [messageApi, contextHolder] = message.useMessage();
 
-    // Використовуємо useEffect, щоб заповнити форму, коли дані користувача завантажені
     useEffect(() => {
         if (user) {
             console.log("user", user)
@@ -34,25 +34,24 @@ const EditProfile = () => {
         return <div>Завантаження даних профілю...</div>;
     }
 
-    const onSubmit = async (values) => {
-        
-        const updatedUser = {
-            ...user, // Зберігаємо всі існуючі поля
-            username: values.username,
-            name: values.name,
-            email: values.email,
-            description: values.description || "",
-            avatar: values.avatar
-        };
-
-        console.log("Updated user data:", updatedUser);
-
-        setUser(updatedUser);
-
-
-        navigate('/pr');
-
+ const onSubmit = async (values) => {
+    const updatedUser = {
+        ...user,
+        username: values.username,
+        name: values.name,
+        email: values.email,
+        description: values.description || "",
+        avatar: values.avatar
     };
+
+    console.log("Updated user data:", updatedUser);
+
+
+    changeUserProfile(user.username, updatedUser, setUser);
+
+    messageApi.success("Профіль успішно оновлено ✅");
+    navigate('/pr');
+};
 
     return (
         <>

@@ -37,10 +37,38 @@ const isSourceFavForUser = (username, source) => {
     const user = getFavUsers().find(u => u.username === username);
     return user ? user.sourcesUser.includes(source) : false;
 };
+const deleteUser = (username) => {
+    let users = getFavUsers();
+    users = users.filter(u => u.username !== username);
+    localStorage.set
+    localStorage.setItem(keyUsers, JSON.stringify(users));
+};
+const changeUserRole = (username, newRole) => {
+    let users = getFavUsers();
+    const index = users.findIndex(u => u.username === username);
 
+    if (index !== -1) {
+        users[index].role = newRole;
+        localStorage.setItem(keyUsers, JSON.stringify(users));
+    }
+};
+
+const changeUserProfile = (username, newProfile, setUser) => {
+    let users = getFavUsers() || [];
+    const index = users.findIndex(u => u.username === username);
+
+    if (index !== -1) {
+        users[index] = { ...users[index], ...newProfile };
+        localStorage.setItem(keyUsers, JSON.stringify(users));
+        setUser(users[index]);
+    }
+};
 export {
     getFavUsers,
     addSourceToUser,
     removeSourceFromUser,
-    isSourceFavForUser
+    isSourceFavForUser,
+    deleteUser,
+    changeUserRole,
+    changeUserProfile
 };
